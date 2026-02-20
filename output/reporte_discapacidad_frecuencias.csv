@@ -1,0 +1,21 @@
+﻿dataset,tipo_discapacidad_norm,cantidad
+padronfme,Fisica Motora,63
+padronfme,Otro,14
+padronfme,Sensorial auditivo,7
+padronfme,Sensorial visual,7
+padronfme,Discapacidad psicosocial,6
+padronfme,Intelectual,5
+padronfme,Fisica Visceral,2
+padronfme,Mental,2
+padronfme,Discapacidades multiples,1
+grupo_familiar,Fisica Motora,67
+grupo_familiar,Otro,38
+grupo_familiar,Mental,26
+grupo_familiar,Trastorno del espectro autista,15
+grupo_familiar,Discapacidad psicosocial,14
+grupo_familiar,Intelectual,12
+grupo_familiar,Sensorial visual,9
+grupo_familiar,Discapacidades multiples,8
+grupo_familiar,Sensorial auditivo,7
+grupo_familiar,Fisica Visceral,6
+grupo_familiar,Sindrome de Down,3

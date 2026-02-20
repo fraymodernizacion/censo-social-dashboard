@@ -1,0 +1,23 @@
+﻿dataset,discapacidad_disc_norm,cud_norm,consistencia_discapacidad_flag,cantidad
+padronfme,,,INFORMACION_DISCAPACIDAD_SIN_DECLARACION,3
+padronfme,,,SIN_DATO,10662
+padronfme,No,,INCONSISTENCIA_DISCAPACIDAD,40
+padronfme,No,,OK,1583
+padronfme,No,En tramite,OK,2
+padronfme,No,No,OK,2
+padronfme,Si,,OK,12
+padronfme,Si,En tramite,FALTA_TIPO_DISCAPACIDAD,1
+padronfme,Si,En tramite,OK,4
+padronfme,Si,No,FALTA_TIPO_DISCAPACIDAD,2
+padronfme,Si,No,OK,35
+padronfme,Si,Si,FALTA_TIPO_DISCAPACIDAD,2
+padronfme,Si,Si,OK,49
+grupo_familiar,,,SIN_DATO,59
+grupo_familiar,No,,OK,4031
+grupo_familiar,Si,,FALTA_TIPO_DISCAPACIDAD,3
+grupo_familiar,Si,,OK,28
+grupo_familiar,Si,En tramite,OK,10
+grupo_familiar,Si,No,FALTA_TIPO_DISCAPACIDAD,1
+grupo_familiar,Si,No,OK,55
+grupo_familiar,Si,Si,FALTA_TIPO_DISCAPACIDAD,3
+grupo_familiar,Si,Si,OK,92
