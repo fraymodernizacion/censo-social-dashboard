@@ -1,0 +1,339 @@
+Módulo,Pregunta,Opciones,Código de columna
+Ubicación Geográfica,Compartir ubicación,toma dato GPS,ubicacion-vv
+,LOCALIDAD,"Villa Las Pirquitas
+Pomancillo Este
+Pomancillo Oeste
+La Carrera
+Collagasta
+La Tercena
+Piedra Blanca
+San Antonio",localidad-vv
+,TIPO DE CALLE,"Adoquinado
+Pavimento
+Tierra",tipodecalle_vv
+,CORDÓN CUNETA,si/no/nsnc,cordon-cuneta
+,VEREDA,si/no/nsnc,veredas
+,BARRIO,txt,barrio_vv
+,CALLE,txt,calle_vv
+,DOMICILIO,txt,domicilio-dni-vv
+Identificación de viviendas y hogares,¿Existen otras viviendas en esta misma dirección?,si/no/nsnc,otras_vv
+,"¿Todas las personas que residen en esta vivienda comparten los gastos de comida y/o alquiler, impuestos, servicios, etc.?",si/no/nsnc,comparten_gastos_vv
+,Registre la cantidad de hogares en la vivienda:,#,cantidad_hogares_vv
+,Tenencia,"Propia
+Alquilada
+Cedida
+Ocupante de hecho",tenencia_vv
+,¿Aprox. cuánto destinas al pago del alquiler?,#,pago_alquiler_vv
+,Cuenta con escritura,si/no/nsnc,escritura_vv
+,¿Tiene alguna deuda o hipoteca sobre su vivienda?,si/no/nsnc,deuda_vv
+Características de la vivienda,Tipo de vivienda,"Casa
+Casilla
+Departamento
+Pieza
+Prefabricada
+Rancho
+Vivienda Móvil
+Pieza en alquiler
+Casa en construcción (habitada)",tipo_vv
+,La vivienda está ubicada en...,"Vivienda en villa de emergencia o asentamiento
+Barrio de vivienda social o monoblock
+Country con veredas y desagües
+Barrio con calles de tierra sin veredas y/o desagües
+Zona rural o semirural
+Otros",ubicadaen_vv
+,¿Cuál es el material predominante de los pisos?,"Mosaico - baldosa - madera -  cerámica - cemento
+Cemento o ladrillo fijo
+Ladrillo suelto o tierra
+Cartón o material reciclable
+Otro",material_piso_vv
+,La cubierta exterior del techo es predominantemente...,"Membrana o cubierta asfáltica
+Pizarra o teja
+Chapa de metal
+Chapa fibrocemento o plástica
+Chapa de cartón
+Caña - palma - paja con barro - etc.
+Otro",material_techo_vv
+,¿El techo tiene revestimiento interior?,si/no/nsnc,revestimientointerior_techo_vv
+,¿Cuántas habitaciones tiene este hogar para su uso exclusivo?,#,cantidad_habitaciones_vv
+,Tiene agua...,"Por cañería fuera de la vivienda
+Fuera de la vivienda pero dentro del terreno
+Fuera del terreno
+No tiene",tieneagua_vv
+,El agua es...,"Red pública
+Perforación con bomba a motor
+Perforación con bomba manual
+Transporte con cisterna
+Arroyo -  acequia - lluvia
+Otra",elaguaes_vv
+,Problemas con las napas...,,problema_napas_vv
+,¿Tiene baño?,si/no/nsnc,tienebaño_vv
+,El baño tiene...,"Inodoro con botón/mochila/cadena y con arrastre de agua
+Inodoro sin botón o cadena con arrastre (balde)
+Letrina (sin arrastre)",elbañotiene_vv
+,El desagüe del baño es...,"A red pública
+A cámara séptica y pozo ciego
+Sólo a pozo ciego
+A hoyo o excavación en la tierra",desaguebañoes_vv
+,Esta vivienda ¿tiene electricidad?,"Por red
+Por generación propia (grupo electrógeno)
+Por generación propia otra (solar - eólica)
+No tiene",electricidad_vv
+,¿Qué combustible utiliza principalmente para cocinar?,"Gas de red
+Gas de tubo
+Gas en garrafa
+Leña o carbón
+Otro",combustible_cocinar_vv
+Equipamiento de la vivienda,Cuenta con los servicios:,"""Luz
+""
+Alumbrado Público 
+Agua potable
+Recolección de residuos
+Contenedor
+""Gas Natural
+""
+""Gas Envasado
+""
+""TV Cable
+""
+DirectTV
+Internet",servicios_vv
+,¿En el hogar disponen de teléfono?,si/no/nsnc,telefono_vv
+,Tipo de teléfono:,"Sólo fijo
+Sólo celulares
+Ambos
+No tienen",tipo_telefono_vv
+,¿Cuántos celulares tienen activos?,#,celulares_activos_vv
+,¿En su hogar tienen?,"Heladera
+Lavarropas automático
+Lavarropa manual
+Aire acondicionado
+Computadora de escritorio
+Computadora notebook
+Bicicleta
+Motocicleta
+Automóvil",equipamiento_vv
+,¿Cuántas bicis particulares tienen?,#,bicis_particulares
+,¿Cuántas Fray en Bici tienen?,#,bicis_frayenbici
+Contexto de ubicación de la vivienda,¿Hay algún basural permanente a menos de 300 metros de su vivienda?,si/no/nsnc,basuralpermanente_300mts_vv
+,¿Hay servicio regular de recolección de residuos en su barrio? (al menos 2 veces por semana),si/no/nsnc,servicioregular_recoleccionresiduos_vv
+Encuesta individual al Jefe de Hogar,NOMBRE COMPLETO,txt,nombrecompleto
+,DNI,#,dni
+,CUIT,#,cuit
+,GÉNERO,"Femenino
+Masculino
+Mujer Trans/ Travesti
+Varón Trans
+No Binario
+Ignorado",genero
+,FECHA DE NACIMIENTO,dd/mm/aaaa,fecha_nacimiento
+,EDAD,# (en años),edad
+,NACIONALIDAD,"Argentina
+Bolivia
+Brasil
+Chile
+Colombia
+Ecuador
+Perú
+Uruguay
+Paraguay
+Venezuela
+España
+Italia
+Corea
+China
+Otro
+NS / NC",nacionalidad
+,TELÉFONO,#,telefono
+Educación,En este momento...,"Asiste a un establecimiento educativo
+No asiste pero asistió a un establecimiento educativo
+Nunca asistió
+NS / NC",asistencia_establecimiento_edu
+,Tipo de educación,"Común
+De Adultos
+Especial",tipo_educacion_edu
+,Nivel que cursa,"Maternal
+Inicial (jardín - preescolar)
+Primario Incompleto
+Primario Completo
+E.G.B. Incompleto
+E.G.B. Completo
+Secundario Incompleto
+Secundario Completo
+Polimodal Incompleto
+Polimodal Completo
+Terciario no Universitario Incompleto
+Terciario Universitario Completo
+Universitario Incompleto
+Universitario Completo
+Postgrado
+Educación Especial
+Ns / Nc",nivel-estudios-cursa
+,Nivel estudios alcanzados,"Maternal
+Inicial (jardín - preescolar)
+Primario Incompleto
+Primario Completo
+E.G.B. Incompleto
+E.G.B. Completo
+Secundario Incompleto
+Secundario Completo
+Polimodal Incompleto
+Polimodal Completo
+Terciario no Universitario Incompleto
+Terciario Universitario Completo
+Universitario Incompleto
+Universitario Completo
+Postgrado
+Educación Especial
+Ns / Nc",nivel-estudiosalcanzados
+,"Carrera/s (en caso de ser más de una, separarlas por comas)",txt,carrera_edu
+"Trabajo (VISIBLE CUANDO EN EL CAMPO ""edad"" es mayor o igual a 16)",En el trabajo Ud. es...,"Trabajador de la empresa familiar sin sueldo
+Emprendedor social
+Beneficiario de Programa de Empleo (con contraprestación laboral)
+Ns / Nc",trabajo_tb
+,"Si se encuentra desempleado, indique hace cuánto tiempo (en meses)",# (en meses),tiempo_desempleado_meses_tb
+,¿Está actualmente buscando trabajo?,si/no/nsnc,buscando_trabajo_tb
+,Su trabajo es...,"Permanente/Fijo
+Temporario
+Changas
+Duración desconocida
+Ns / Nc",sutrabajoes_tb
+,¿Le descuentan o aporta por sí mismo a su jubilación? (incluye monotributo social u otro),si/no/nsnc,aportes_jubilatorios_tb
+,Su ocupación (en las que más horas trabaja) se desarrolla en...,"Fuera de su domicilio en esta localidad
+En otra localidad dentro de Fray Mamerto Esquiú
+En Valle Viejo
+En Capital
+En otro departamento
+En otra provincia
+En su domicilio",juridisccion_trabajo_tb
+,"En caso de movilizarse hacia su trabajo, lo hace mayormente en...","Colectivo
+Moto
+Auto
+Bicicleta
+A pie",movilidad_trabajo_tb
+,Tiene oficio...,si/no/nsnc,tiene_oficio_tb
+,Cual oficio,opciones,cual_oficio_tb
+,Monto ingresos mensuales del grupo familiar,#,monto_ingresomensual_grupofamiliar_tb
+,¿Cuánto usted considera que tendría que ganar para sentir que puede satisfacer todos los gastos mensuales? (todo el grupo familiar),#,monto_subjetivo_gastrosmensuales_tb
+,¿Qué otras fuentes de ingresos tiene -que NO sea el trabajo-?,"Jubilación / pensión ordinaria
+Pensiones no contributivas / graciables
+Alquileres / Rentas / Intereses
+Seguro de Desempleo
+Beca de Estudio
+Cuota de alimentos
+Aporte habitual de personas que no viven en el hogar (familiares y otros)
+Programas Sociales monetarios SIN contraprestación laboral
+Otros Ingresos Laborales
+Ns / Nc",otros_ingresos_tb
+Salud,Sexo,"Hombre
+Mujer",sexo
+,Cobertura de salud,"Incluir Salud
+Obra Social
+Prepaga
+Servicio de Emergencia
+No posee",cobertura_salud
+,En los últimos 12 meses ¿realizó alguna consulta con un médico clínico o con un especialista?,si/no/nsnc,consultas_salud
+,¿Le han recetado medicamentos el último año?,si/no/nsnc,medicamentosrecetados_ultimoaño_salud
+,¿Ha podido conseguirlos/obtenerlos?,si/no/nsnc,consiguio_medicamentos_salud
+,Enfermedades crónicas o de larga duración (respuesta múltiple),"Diabetes
+Adicciones
+Alcoholismo
+Enfermedad psiquiátrica
+Trasplante (realizado o próximo a realizarse)
+Celiaco
+Chagas
+Oncológica
+Obesidad
+Otra",enfermedadescronicas_tratamientosprolongados_salud
+,Indique la cantidad total de embarazos que ha tenido,#,cantidadtotal_embarazos_salud
+,Indique la cantidad total de partos que ha tenido,#,cantidadtotal_partos
+,¿Está embarazada?,si/no/nsnc,esta_embarazada_salud
+Discapacidad,Cuenta con alguna discapacidad?,si/no/nsnc,discapacidad_disc
+,¿Posee dependencia de otro adulto?,"Dependiente
+Semidependiente
+Independiente",CUD-Discapacidad_disc
+,¿Debe utilizar alguno de los siguientes elementos ortopédicos?,"Andador
+Silla de ruedas
+Bastón
+Muletas
+Cama ortopédica
+Colchón antiescaras",elementos_ortopedicos_disc
+,¿Cuenta con Certificado Único de Discapacidad (CUD)?,si/no/en trámite,dependencia_discapacidad_disc
+,Tipo de discapacidad,"""Discapacidad psicosocial
+""
+""Discapacidades múltiples
+""
+""Física Motora
+""
+""Física Visceral
+""
+Intelectual
+Mental
+""Sensorial auditivo
+""
+""Sensorial visual
+""
+""Síndrome de Down
+""
+""Trastorno del espectro autista
+""
+Otro",tipo-discapacidad_disc
+Asistencia Directa,¿Alguno de los miembros de su familia recibe en forma gratuita alguno de los siguientes bienes? (múltiple),"Asiste a comedores /viandas
+Asiste a merenderos / copa de leche
+Medicamentos
+Calzado/Ropa
+Útiles escolares
+Materiales de Construcción
+Módulos Alimentarios
+Lentes Recetados
+Costureras de Fray
+Ninguno
+Otros",bienes_gratuitos_asistencia
+,Si contestó sí en merenderos y/o comedores ¿con que frecuencia lo hace?,"Más de una vez al día
+Una vez al dia
+Entre dos y cuatro veces por semana
+Todos los días
+Una vez por semana
+Cada 15 días
+1 vez por mes",frecuencia_merenderocomedor_asistencia
+,¿Es beneficiario/a de algún plan social por el que recibe dinero?,"Potenciar Trabajo
+Progresar
+Catamarca Incluye
+No tiene
+No recuerda el plan
+Otros.",beneficiario_plan_asistencia
+,¿Algún miembro del hogar cobra asignación universal por hijo y/o por embarazo?,si/no/nsnc,miembro_flia_auh_asistencia
+,Indique cantidad de miembros que cobran AUH:,#,cantidad_auh_asistencia
+,¿Algún miembro del hogar cobra tarjeta ALIMENTAR:?,si/no/nsnc,miembro_tarjetaalimentar_asistencia
+,Indique cantidad de miembros que cobran tarjeta ALIMENTAR:,#,cantidad_tarjetaalimentar_asistencia
+Dinámica Familiar,¿Quién se ocupa generalmente del cuidado de niños y niñas durante el día?,"Madre
+Padre
+Ambos adultos
+Un abuelo/a 
+Vecinos/amigos
+Otros niños/as
+Los niños/as permanecen solos 
+Otro…….",quienseocupa_cuidadoniños_flia
+,¿Quién se ocupa generalmente en mayor proporción de las tareas del hogar? Puede ser varias opciones,"Madre
+Padre
+Ambos adultos
+Los niños
+Trabaja en el hogar una persona ",quienseocupa_tareas_flia
+Dependencias Municipales,¿Conoce las siguientes dependencias municipales?,"Juzgado Administrativo Municipal de Faltas
+Guardia Urbana
+Centro de Monitoreo
+Centro de Emisión de Licencias de Conducir
+Planta GIRSU (Gestión Integral de Residuos Sólidos Urbanos)
+Casa de la Mujer
+Casa del Jóven
+Club de Campo Municipal
+Estadio Maradona
+Estadio Evita
+Camping Municipal de Las Pirquitas
+Hosteria Municipal Las Pirquitas
+Campamento de Pirquitas
+Punto Digital Piedra Blanca
+Punto Digital La Tercena
+Cancha Municipal de Hockey",conoce_dependenciasmunicipales
+Domicilio Electrónico,Correo Electrónico (domicilio electrónico),correo electrónico,mail
+,Firma conforme domicilio electrónico,firma,firma_conforme_domicilio_electronico
+,parentesco_con_jefedehogar,,
